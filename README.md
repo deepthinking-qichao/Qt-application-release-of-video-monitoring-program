@@ -16,7 +16,7 @@ Author: [Qichao Wu](https://github.com/deepthinking-qichao)
 ### Video Monitoring Application
 We already have a qt application named <test2> that can monitor the retention of people or large items on the escalator landing floor, statistics on passenger flow in the escalator, whether there are passengers on the escalator 
 and whether there is abnormal movement at the escalator handrail, and send the above monitoring situation to the escalator controller through pipeline communication, 
-therefore, we also wrote a c++ program named <[last.cpp](https://github.com/deepthinking-qichao/Qt-application-release-of-video-monitoring-program/blob/master/release/last3)> for testing the pipe communication function of qt applications. The qt application <test2> cannot be uploaded to github for some reason, 
+therefore, we also wrote a c++ program named <[last.cpp](https://github.com/deepthinking-qichao/Qt-application-release-of-video-monitoring-program/blob/master/release/last.cpp)> for testing the pipe communication function of qt applications. The qt application <test2> cannot be uploaded to github for some reason, 
 but you can write a qt program and use it to implement qt application release instead of test2.
 
 In order to simulate the function of the video surveillance program, I wrote a C++ program based on VS2013 named <[video_save](https://github.com/deepthinking-qichao/Qt-application-release-of-video-monitoring-program/tree/master/video_save)> that recorded surveillance video through the camera for a certain period of time. 
@@ -54,4 +54,4 @@ If the program crashes or is killed, you need to open the program again. The scr
 
 So I wrote a shell script <[all.sh](https://github.com/deepthinking-qichao/Qt-application-release-of-video-monitoring-program/blob/master/all.sh)> to achieve the above two functions.
 
-#***Hope this help you***
+# ***Hope this help you***
