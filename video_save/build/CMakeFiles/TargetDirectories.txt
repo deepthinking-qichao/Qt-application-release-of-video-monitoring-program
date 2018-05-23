@@ -1,0 +1,3 @@
+/home/scut214/test/video_save/build/CMakeFiles/edit_cache.dir
+/home/scut214/test/video_save/build/CMakeFiles/rebuild_cache.dir
+/home/scut214/test/video_save/build/CMakeFiles/videoSave.dir
